@@ -6,4 +6,6 @@ django-bootstrap3
 Pillow
 django-crispy-forms
 pusher
+psycopg2
 unipath
+django-gulp
