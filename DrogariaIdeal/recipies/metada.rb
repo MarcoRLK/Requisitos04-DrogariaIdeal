@@ -1,0 +1,7 @@
+name 'sitebadass'
+maintainer 'chef'
+maintainer_email 'soluctions-architects@chef.io'
+license 'all_rights'
+description 'Install/configures sitedbass'
+version '0.1.71'
+depends 'httpdbass'
