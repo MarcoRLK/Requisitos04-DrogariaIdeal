@@ -1,0 +1,3 @@
+[console_scripts]
+average = average.__main__:main
+
