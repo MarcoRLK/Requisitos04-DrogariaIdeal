@@ -1,5 +1,0 @@
-Django==1.9.8
-django-bootstrap3
-Pillow
-django-crispy-forms
-pusher
