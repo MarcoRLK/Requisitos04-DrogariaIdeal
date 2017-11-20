@@ -11,7 +11,7 @@ before_script:
   - cd DrogariaIdeal
 script:
   - docker-compose run web python manage.py
+  - docker-compose run web py.test
 after_script:
   - docker-compose down
-  # - docker-compose run web py.test --cov=apps
   # - docker-compose run web flake8 --exclude test_settings.py,*/migrations/,manage.py .
