@@ -15,3 +15,21 @@ after_script:
   - docker-compose down
   # - docker-compose run web py.test --cov=apps
   # - docker-compose run web flake8 --exclude test_settings.py,*/migrations/,manage.py .
+deploy:
+  provider: heroku
+  api_key:
+    secure: deploy:
+      provider: heroku
+      api_key:
+        # my number
+        secure: 5af054fd-06bd-43ed-9f7a-01e1c4930c02
+      app:
+        master: drograria-ideal
+      run:
+        - "python manage.py makemigrations"
+        - "python manage.py migrate"
+  app:
+    master: drograria-ideal
+  run:
+    - "python manage.py makemigrations"
+    - "python manage.py migrate"
