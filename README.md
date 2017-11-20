@@ -11,7 +11,7 @@ Segue abaixo a lista de ferramentas das quais este projeto busca atender e seus 
 |           |Environment|Continous Integration|Configuration|Build|Packing|
 |:---------:|:---------:|:-------------------:|:-----------:|:---:|:-----:|
 |Ferramenta:|Docker|Travis|Chef|Gulp|Egg|
-|Status:    |Dois services: web e db|Rodando flake8 e py.test|X|Rodando através do django-gulp|Roando o executar iniciar o docker|
+|Status:    |Dois services: web e db|Rodando flake8 e py.test|X|Rodando através do django-gulp|Basta rodar o comando indicado no tutorial abaixo|
 
 ## Links relevantes:
 
