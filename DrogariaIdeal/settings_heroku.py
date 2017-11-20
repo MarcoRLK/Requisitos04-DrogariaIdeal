@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'DrogariaIdeal.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dv5mhuhjjkvco',
-        'USER': 'huhkgtmgltwlrr',
+        'NAME': 'd1hv48cp1tq0sj',
+        'USER': 'bpejqbsisvzsdb',
         'PASSWORD':
-        '5acf54b796e0143ec55488831665d784f06b080634f5e21ed4e38280ad4c0f6e',
-        'HOST': 'ec2-54-221-225-114.compute-1.amazonaws.com',
+        'cbb4471d39bdd6a67662227f5ee6b5e1d8dae673c6d79cff4d605958506bc12f',
+        'HOST': 'ec2-54-221-207-138.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
