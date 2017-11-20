@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django_gulp',
     'django.contrib.staticfiles',
     'users',
     'bootstrap3',
@@ -46,6 +47,10 @@ INSTALLED_APPS = [
     'pusher',
     'products',
 ]
+
+GULP_PRODUCTION_COMMAND = "gulp build --production"
+
+GULP_DEVELOP_COMMAND = "gulp"
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
