@@ -18,7 +18,7 @@ after_script:
 deploy:
   provider: heroku
   api_key:
-    secure: deploy:
+    secure: deploy
       provider: heroku
       api_key:
         # my number
