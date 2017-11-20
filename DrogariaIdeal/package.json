@@ -1,0 +1,25 @@
+{
+  "name": "drogaria-ideal",
+  "version": "1.0.0",
+  "description": "GCS aplicado em Drogaria Ideal",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MarcoRLK/Requisitos04-DrogariaIdeal.git"
+  },
+  "author": "Marco Kuroiva <marco.antoniorl10@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-htmlmin": "^3.0.0",
+    "webpack-stream": "^4.0.0"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8"
+  }
+}
