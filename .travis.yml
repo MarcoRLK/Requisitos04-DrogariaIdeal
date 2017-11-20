@@ -18,4 +18,10 @@ after_script:
 deploy:
   provider: heroku
   api_key:
-    secure: "YOUR ENCRYPTED API KEY"
+    secure: "0a46f65a-5b91-400c-af15-16d8f137bdc0"
+  app:
+    devel: drograria-devel
+    deploy_continous: drograria-deploy_continous
+  run:
+    - "python manage.py makemigrations"
+    - "python manage.py migrate"
