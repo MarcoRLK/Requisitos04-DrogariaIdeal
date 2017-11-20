@@ -65,10 +65,10 @@ Abra o navegador e acesse:
 
 `sudo docker-compose run  python setup.py bdist_egg`
 O egg se encontrará na pasta:
-**Requisitos04-DrogariaIdeal/DrogariaIdeal/dist**
+**Requisitos04-DrogariaIdeal/dist**
 
 ### E o Gulp?
 
 Ao levantar o container, você já estará executando o gulp. Isso graças ao django-gulp, que sobrescreve o './manage.py' e o './manage.py collectstatic' para que eles executem o comando 'gulp'.
 Para verificar os resultados da sua execução, bastar observar o terminal e a pasta:
-**Requisitos04-DrogariaIdeal/DrogariaIdeal/static/gulp/**
+**Requisitos04-DrogariaIdeal/static/gulp/**
