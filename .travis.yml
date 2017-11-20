@@ -18,19 +18,9 @@ after_script:
 deploy:
   provider: heroku
   api_key:
-    secure: deploy
-      provider: heroku
-      api_key:
-        # my number
-        # another test
-        secure: 5af054fd-06bd-43ed-9f7a-01e1c4930c02
-      app:
-        master: drograria-ideal
-      run:
-        - "python manage.py makemigrations"
-        - "python manage.py migrate"
+    secure:  5af054fd-06bd-43ed-9f7a-01e1c4930c02
   app:
-    master: drograria-ideal
+    master:  drograria-ideal
   run:
     - "python manage.py makemigrations"
     - "python manage.py migrate"
