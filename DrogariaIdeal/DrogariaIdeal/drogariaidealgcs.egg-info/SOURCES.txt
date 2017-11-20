@@ -1,0 +1,8 @@
+setup.py
+DrogariaIdeal/drogariaidealgcs.egg-info/PKG-INFO
+DrogariaIdeal/drogariaidealgcs.egg-info/SOURCES.txt
+DrogariaIdeal/drogariaidealgcs.egg-info/dependency_links.txt
+DrogariaIdeal/drogariaidealgcs.egg-info/entry_points.txt
+DrogariaIdeal/drogariaidealgcs.egg-info/not-zip-safe
+DrogariaIdeal/drogariaidealgcs.egg-info/requires.txt
+DrogariaIdeal/drogariaidealgcs.egg-info/top_level.txt
