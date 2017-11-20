@@ -5,10 +5,9 @@ python:
 services:
   - docker
 before_install:
-  - cd DrogariaIdeal
   - docker-compose up --build -d
 before_script:
-  - cd DrogariaIdeal
+  # - cd DrogariaIdeal
 script:
   - docker-compose run web python manage.py
 after_script:
