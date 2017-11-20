@@ -1,3 +1,5 @@
+![Travis](https://travis-ci.org/MarcoRLK/Requisitos04-DrogariaIdeal.svg?branch=master)
+
 # Drogaria Ideal
 
 Este é um fork do repositório original destinado ao desenvolvimento do trabalho de Gerência de Configuração de Software.
@@ -10,6 +12,20 @@ Segue abaixo a lista de ferramentas das quais este projeto busca atender e seus 
 |:---------:|:---------:|:-------------------:|:-----------:|:---:|:-----:|
 |Ferramenta:|Docker|Travis|Chef|Gulp|Egg|
 |Status:    |Dois services: web e db|Rodando flake8 e py.test|X|Rodando através do django-gulp|Roando o executar iniciar o docker|
+
+## Links relevantes:
+
+- Travis:
+
+  https://travis-ci.org/MarcoRLK/Requisitos04-DrogariaIdeal/branches
+
+- Documentação do django-gulp:
+
+  https://pypi.python.org/pypi/django-gulp
+
+- Deploy no heroku (extra, não faz parte do planejamento):
+
+  WAITING
 
 ## Como rodar:
 
@@ -54,5 +70,5 @@ O egg se encontrará na pasta:
 ### E o Gulp?
 
 Ao levantar o container, você já estará executando o gulp. Isso graças ao django-gulp, que sobrescreve o './manage.py' e o './manage.py collectstatic' para que eles executem o comando 'gulp'.
-Para verificar os resultados da sua execução, bastar observar o termina e a pasta:
+Para verificar os resultados da sua execução, bastar observar o terminal e a pasta:
 **Requisitos04-DrogariaIdeal/DrogariaIdeal/static/gulp/**
