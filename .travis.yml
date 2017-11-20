@@ -15,3 +15,7 @@ after_script:
   - docker-compose down
   # - docker-compose run web py.test --cov=apps
   # - docker-compose run web flake8 --exclude test_settings.py,*/migrations/,manage.py .
+deploy:
+  provider: heroku
+  api_key:
+    secure: "YOUR ENCRYPTED API KEY"
