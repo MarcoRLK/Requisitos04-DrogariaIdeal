@@ -20,7 +20,7 @@ deploy:
   api_key:
     secure:  5af054fd-06bd-43ed-9f7a-01e1c4930c02
   app:
-    master:  drograria-ideal
+    dev:  drograria-ideal
   run:
     - "python manage.py makemigrations"
     - "python manage.py migrate"
