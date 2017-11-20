@@ -8,3 +8,4 @@ django-crispy-forms
 pusher
 unipath
 setuptools
+django-gulp
