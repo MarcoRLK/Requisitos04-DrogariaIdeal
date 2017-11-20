@@ -6,7 +6,7 @@ services:
 - docker
 before_install:
 - docker-compose up --build -d
-before_script: 
+before_script:
 script:
 - docker-compose run web python manage.py
 after_script:
@@ -16,8 +16,8 @@ deploy:
   api_key:
     secure: OnZMEiMYYr1RHdjbsk+ZbRspymwCU+WeL7poalWBlVZRjD9x+1SWjCvmPEpcTJhccS3eH7uVQnrxfNwlOsBBSVq3g/9nyf0KGqNv4picfIx6JBLw9///szelTjmz+EgCX3QvJdoDwmBYSKXWhEADliOSSBdCbw4vb8//fgrwx9ETv/WXESLUIHXFFfoLJo6OGOKVLegf0OtXjnmafq8cnh6vBr5n8SiXXQGVQAKrOkLXuE4T6hTwftmaeIrlcES57EqMyxL/ctDdpLa8+vVneOe8+Pu5yMVFlAfIW0ukaPMmZw0gKj7/jcSm5HYOAC3z4Czae5vb1cglrSf8+0WiXWbm9nI58ra5fxEZdo/OhlevcWa2Lkm0OtQi87nZ6WEdxb1MgcydA1HcOtl20Xz6JimIcJBunUoSdy/kpRngIpovfjB5ii87wMu7KV4fJ2b72C7O4EkpGNmdQbjju4LAOVxifV5v4uS6Hq1yk3UtzJ5qQNWDMymt1xpPkz61BkK7SgQDcN1ZuWTn2U/2+v8y5CZ3J6zHyJ5OoUKjH7Fc3jZhD3hGlx0OPeNCkvg4AIY/SNwTt+9DyYAeaE05ZSNNfJCk3K4FNYl2xayCi4TNjiVwnq26atWGvNper6kBz2TTDfATu3ao0Io97ZEFuWeOo0z0AJ0/xglIKgxc2R+OTfQ=
   app:
-    devel: drograria-devel
-    deploy_continous: drograria-deploy_continous
+    # devel: drograria-devel
+    deploy_continous: DrogariaIdeal
   run:
   - python manage.py makemigrations
   - python manage.py migrate
