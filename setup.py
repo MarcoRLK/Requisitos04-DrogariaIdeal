@@ -39,9 +39,6 @@ setup(
         ],
     },
 
-    entry_points = {
-       "console_scripts": ["average = average.__main__:main"]
-    },
     # Other configurations
     zip_safe=False,
     platforms='any',

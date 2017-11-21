@@ -5,13 +5,10 @@ python:
 services:
   - docker
 before_install:
-  - cd DrogariaIdeal
   - docker-compose up --build -d
-before_script:
-  - cd DrogariaIdeal
 script:
   - docker-compose run web python manage.py
   - docker-compose run web py.test
+  # - docker-compose run web flake8
 after_script:
   - docker-compose down
-  # - docker-compose run web flake8 --exclude test_settings.py,*/migrations/,manage.py .

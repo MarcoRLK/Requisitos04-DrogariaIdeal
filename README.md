@@ -1,6 +1,15 @@
+![Travis](https://travis-ci.org/MarcoRLK/Requisitos04-DrogariaIdeal.svg?branch=master)
+
 # Drogaria Ideal
 
 Este é um fork do repositório original destinado ao desenvolvimento do trabalho de Gerência de Configuração de Software.
+
+## Alunos
+
+|Nome|Matrícula|
+|:--:|:-------:|
+|Anderson Silva|14/0130004|
+|Marco Kuroiva|16/0160464|
 
 ## Planejamento
 
@@ -9,7 +18,18 @@ Segue abaixo a lista de ferramentas das quais este projeto busca atender e seus 
 |           |Environment|Continous Integration|Configuration|Build|Packing|
 |:---------:|:---------:|:-------------------:|:-----------:|:---:|:-----:|
 |Ferramenta:|Docker|Travis|Chef|Gulp|Egg|
-|Status:    |Dois services: web e db|Rodando flake8 e py.test|X|Rodando através do django-gulp|Roando o executar iniciar o docker|
+|Status:    |Dois services: web e db|Rodando flake8 e py.test|X|Rodando através do django-gulp|Basta rodar o comando indicado no tutorial abaixo|
+
+## Links relevantes:
+
+- Travis:
+
+  https://travis-ci.org/MarcoRLK/Requisitos04-DrogariaIdeal/branches
+
+- Documentação do django-gulp:
+
+  https://pypi.python.org/pypi/django-gulp
+
 
 ## Como rodar:
 
@@ -49,10 +69,10 @@ Abra o navegador e acesse:
 
 `sudo docker-compose run  python setup.py bdist_egg`
 O egg se encontrará na pasta:
-**Requisitos04-DrogariaIdeal/DrogariaIdeal/dist**
+**Requisitos04-DrogariaIdeal/dist**
 
 ### E o Gulp?
 
 Ao levantar o container, você já estará executando o gulp. Isso graças ao django-gulp, que sobrescreve o './manage.py' e o './manage.py collectstatic' para que eles executem o comando 'gulp'.
-Para verificar os resultados da sua execução, bastar observar o termina e a pasta:
-**Requisitos04-DrogariaIdeal/DrogariaIdeal/static/gulp/**
+Para verificar os resultados da sua execução, bastar observar o terminal e a pasta:
+**Requisitos04-DrogariaIdeal/static/gulp/**
