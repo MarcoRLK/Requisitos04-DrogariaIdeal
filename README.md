@@ -1,4 +1,5 @@
-![Travis](https://travis-ci.org/MarcoRLK/Requisitos04-DrogariaIdeal.svg?branch=master)
+[![Build Status](https://travis-ci.org/MarcoRLK/Requisitos04-DrogariaIdeal.svg?branch=master
+)](https://travis-ci.org/MarcoRLK/Requisitos04-DrogariaIdeal)
 
 # Drogaria Ideal
 
