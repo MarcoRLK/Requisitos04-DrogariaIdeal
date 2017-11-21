@@ -4,6 +4,13 @@
 
 Este é um fork do repositório original destinado ao desenvolvimento do trabalho de Gerência de Configuração de Software.
 
+## Alunos
+
+|Nome|Matrícula|
+|:--:|:-------:|
+|Anderson Silva|14/0130004|
+|Marco Kuroiva|16/0160464|
+
 ## Planejamento
 
 Segue abaixo a lista de ferramentas das quais este projeto busca atender e seus status no atual projeto:
@@ -23,9 +30,6 @@ Segue abaixo a lista de ferramentas das quais este projeto busca atender e seus 
 
   https://pypi.python.org/pypi/django-gulp
 
-- Deploy no heroku (extra, não faz parte do planejamento):
-
-  WAITING
 
 ## Como rodar:
 
